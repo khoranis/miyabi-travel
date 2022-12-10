@@ -114,7 +114,7 @@
             <div class="content-col-4">
                 <h3 style="font-weight: bold;">Niagara Falls</h3>
                 <div class="section-02">
-                    <p class="text-design">Filmpy Khoranis</p>
+                    <p class="text-design">Filmpy</p>
                 </div>
                 <p style="margin-bottom: 2rem;">Lorem ipsum dolor sit amet, consectetur iscing elit. Etiam fermentum nulla ac tincidunt. Sed volutpat semper elit quis.</p>
                 <a href="#" class="viewmore">VIEW MORE</a>
