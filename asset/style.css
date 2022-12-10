@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,200&family=Noto+Sans+Thai:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Noto Sans Thai', sans-serif;
+}
+
+html,
+body {
+    position: relative;
+    height: 100%;
+}
+
+.navbar-dark .navbar-brand {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    padding: 0px 20px 0px 20px;
+}
+
+@media screen and (max-width: 876px) {
+    .navbar-dark .navbar-nav .nav-link {
+        padding: 10px 0px 10px 0px;
+    }
+}
+
+.content-col-4{
+    float: left;
+    width: 33.33%;
+    padding: 8rem 5rem 8rem 5rem;
+    background-color: #f5f5f5;
+    text-align: center;
+}
+
+.content-row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.tbg-white{
+    background-color: #fff;
+}
+
+.text-design{
+    font-weight: bold;
+    font-family: 'Lobster', cursive;
+    font-size: 1.5rem;
+    /* color: orangered; */
+}
+
+.section-02 .text-design{
+    color: orangered;
+}
+
+.viewmore{
+    text-decoration: none;
+    color: orangered;
+    font-weight: bold;
+    margin-top: 2rem;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Button Style 01 */
+.btn.style-01{
+    background-color: #ff681a;
+    color: #fff;
+    padding: .875rem 2.875rem; /*14px 46px*/
+    border-radius: 0;
+    transition:background .5s;
+    margin-top: 2.5rem;
+}
+
+.btn.style-01:hover{
+    background-color: #212529;
+}
+
+@media screen and (max-width: 996px) {
+    .content-col-4 {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 767.98px) {
+    .btn.style-01{
+        padding: .625rem 2.625rem; /*10px 42px*/
+    }
+}
+
+@media screen and (max-width: 575.98px) {
+    .btn.style-01{
+        padding: .4375rem 2.375rem; /*7px 38px*/
+    }
+}
+
+
+    
