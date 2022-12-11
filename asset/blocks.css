@@ -52,6 +52,7 @@
     width: 100%;
     height: 50%;
     background-size: cover;
+    cursor: pointer;
 }
 
 .section-02-column .section-02-column-small{
@@ -86,7 +87,7 @@
     padding: 0px;
 }
 
-.section-04{
+.section-04::after{
     content: "";
     display: table;
     clear: both;
@@ -100,10 +101,33 @@
 }
 
 .section-05{
+    margin-top: 0.5rem;
+}
+
+.section-05::after{
     content: "";
-    display: block;
+    display: table;
     clear: both;
-    margin-top: .625rem;
+    margin-top: 0.5rem;
+}
+
+.section-06-column{
+    float: left;
+    width: 33.33%;
+    position: relative;
+}
+
+.section-06::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.section-06-column .photo-section-06 >a img{
+    width: 100%;
+    height: 10%;
+    min-height: 10%;
+    background-size: cover;
 }
 
 @media screen and (max-width: 1307px){
@@ -114,6 +138,10 @@
 
 @media screen and (max-width: 996.98px) {
     .section-03-column{
+        width: 50%;
+    }
+
+    .section-06-column{
         width: 50%;
     }
 }
@@ -156,6 +184,10 @@
     .section-05-column{
         width: 100%;
     }
+
+    .section-06-column{
+        width: 100%;
+    }
 }
 
 @media screen and (max-width:575.98px){
@@ -178,6 +210,10 @@
     }
 
     .section-04-column{
+        width: 100%;
+    }
+
+    .section-06-column{
         width: 100%;
     }
 }

@@ -129,35 +129,43 @@
 
    <!-- START IMAGE GRID -->
         <div class="section-02">
-            <div class="section-02-column" style="background-color:#aaa;">
+            <div class="section-02-column">
                 <div class="photo">
-                    <img src="asset/img/lisheng-chang-m9BBVrPl87M-unsplash.jpg" alt="">
+                    <img src="asset/img/lisheng-chang-m9BBVrPl87M-unsplash.jpg" alt="" id="imadeGrid1">
                 </div>
             </div>
-            <div class="section-02-column" style="background-color:#8fd5ef;">
+            <div class="section-02-column">
                 <div class="section-02-column-small">
                     <div class="photo">
-                        <img src="asset/img/anantachai-saothong-0DKDTSFBXc8-unsplash.jpg" alt="">
+                        <img src="asset/img/anantachai-saothong-0DKDTSFBXc8-unsplash.jpg" alt="" id="imadeGrid2">
                     </div>
                 </div>
                 <div class="section-02-column-small">
                     <div class="photo">
-                        <img src="asset/img/jesse-schoff-74yB8FhZyWc-unsplash.jpg" alt="">
+                        <img src="asset/img/jesse-schoff-74yB8FhZyWc-unsplash.jpg" alt="" id="imadeGrid3">
                     </div>
                 </div>
                 <div class="section-02-column-small">
                     <div class="photo">
-                        <img src="asset/img/polina-kocheva-OeELxA2wpc8-unsplash.jpg" alt="">
+                        <img src="asset/img/polina-kocheva-OeELxA2wpc8-unsplash.jpg" alt="" id="imadeGrid4">
                     </div>
                 </div>
                 <div class="section-02-column-small">
                     <div class="photo">
-                        <img src="asset/img/robin-noguier-sydwCr54rf0-unsplash.jpg" alt="">
+                        <img src="asset/img/robin-noguier-sydwCr54rf0-unsplash.jpg" alt="" id="imadeGrid5">
                     </div>
                 </div>
             </div>
         </div>
    <!-- END IMAGE GRID -->
+
+   <!-- START MODAL IMAGE GRID -->
+        <div class="modal" id="gridModal">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="imgGridModal">
+            <div id="caption" alt="test">IMAGE</div>
+        </div>
+   <!-- END MODAL IMAGE GRID -->
 
    <!-- START ICON -->
         <div class="section-03">
@@ -294,9 +302,44 @@
         </div>
    <!-- END NUMBER -->
 
-   <!-- <div class="mt-5">
-    <h1>pppppppppppppppppppppppppp</h1>
-   </div> -->
+   <!-- START SECTION 06 -->
+        <div class="section-06">
+            <div class="section-06-column">
+                <div class="photo-section-06">
+                    <a href="#"><img src="asset/img/joshua-earle-p21ZByHgRWI-unsplash.jpg" alt=""></a>
+                    <div class="section-06-des">
+                        <h1>Spring Hiking</h1>
+                        <p>Just Beautiful</p>
+                    </div>
+                </div>
+            </div>
+            <div class="section-06-column">
+                <div class="photo-section-06">
+                    <a href="#"><img src="asset/img/alessio-lin-uAT2pqC01kY-unsplash.jpg" alt=""></a>
+                    <div class="section-06-des">
+                        <h1>Mont Blanc</h1>
+                        <p>Just Beautiful</p>
+                    </div>
+                </div>
+            </div>
+            <div class="section-06-column">
+                <div class="photo-section-06">
+                    <a href="#"><img src="asset/img/oliver-sjostrom-gofDws5Y_CU-unsplash.jpg" alt=""></a>
+                </div>
+                <div class="section-06-des">
+                    <h1>Adventure</h1>
+                    <p>Just Beautiful</p>
+                </div>
+            </div>
+        </div>
+   <!-- END SECTION 06 -->
+
+   <!-- START FOOTER -->
+        <div class="footer">
+            <p>Footer</p>
+        </div>
+   <!-- END FOOTER -->
+    
 
 
   
@@ -325,5 +368,53 @@
             },
         });
     </script>
+
+    <script>//modal image grid
+        var modal = document.getElementById("gridModal");
+        var img1 = document.getElementById("imadeGrid1");
+        var img2 = document.getElementById("imadeGrid2");
+        var img3 = document.getElementById("imadeGrid3");
+        var img4 = document.getElementById("imadeGrid4");
+        var img5 = document.getElementById("imadeGrid5");
+        var modalImg = document.getElementById("imgGridModal");
+        var captionText = document.getElementById("caption").textContent;
+        img1.onclick = function(){
+            modal.style.display = "block";
+            modalImg.src = this.src;
+            captionText.innerHTML = this.alt;
+        }
+
+        img2.onclick = function(){
+            modal.style.display = "block";
+            modalImg.src = this.src;
+            captionText.innerHTML = this.alt;
+        }
+
+        img3.onclick = function(){
+            modal.style.display = "block";
+            modalImg.src = this.src;
+            captionText.innerHTML = this.alt;
+        }
+
+        img4.onclick = function(){
+            modal.style.display = "block";
+            modalImg.src = this.src;
+            captionText.innerHTML = this.alt;
+        }
+
+        img5.onclick = function(){
+            modal.style.display = "block";
+            modalImg.src = this.src;
+            captionText.innerHTML = this.alt;
+        }
+
+
+
+        var span = document.getElementsByClassName("close")[0];
+        span.onclick = function() { 
+            modal.style.display = "none";
+        }
+    </script>
+
 </body>
 </html>
