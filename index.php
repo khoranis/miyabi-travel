@@ -334,9 +334,28 @@
         </div>
    <!-- END SECTION 06 -->
 
+   <!-- START SECTION 07 -->
+        <div class="section-07">
+            <div class="section-07-column">
+                <div class="footer">
+                    <h2>Miyabi traval</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias, commodi omnis? Tempore nesciunt fugiat. Molestias, commodi omnis? Tempore nesciunt fugiat.</p>
+                </div>
+                <div class="social">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+                    <a href="#"><i class="fa-solid fa-phone-volume"></i></a>
+                    <a href="#"><i class="fa-brands fa-line"></i></a>
+                </div>
+            </div>
+        </div>
+   <!-- END SECTION 07 -->
+
    <!-- START FOOTER -->
-        <div class="footer">
-            <p>Footer</p>
+        <div class="section-footer">
+            <div class="footer-text">
+                <p>@ MIYABI TRAVAL 2023</p>
+            </div>
         </div>
    <!-- END FOOTER -->
     

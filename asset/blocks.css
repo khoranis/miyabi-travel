@@ -130,6 +130,44 @@
     background-size: cover;
 }
 
+.section-07-column{
+    float: left;
+    width: 100%;
+    background-color: #0f1010;
+    padding: 2rem 15rem 2rem 15rem;
+    color: #fff;
+    height: 18.75rem;
+}
+
+.section-07::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.section-07-column .footer{
+    text-align: center;
+}
+
+.section-07-column .social{
+    text-align: center;
+    margin-top: 4.5rem;
+}
+
+.section-07-column .social > a{
+    font-size: 1.8rem;
+    padding: 1rem 1.5rem 1rem 1.5rem;
+    background-color: #fff;
+    border-radius: 50%;
+    margin: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.section-07-column .social > a:hover{
+    background-color: #ff681a;
+}
+
+
 @media screen and (max-width: 1307px){
     .section-05-column{
         width: 50%;
@@ -143,6 +181,10 @@
 
     .section-06-column{
         width: 50%;
+    }
+
+    .section-07-column{
+        padding: 2rem 10rem 2rem 10rem;
     }
 }
 
@@ -188,6 +230,15 @@
     .section-06-column{
         width: 100%;
     }
+
+    .section-07-column{
+        padding: 2rem 6rem 2rem 6rem;
+    }
+
+    .section-07-column .social > a{
+        font-size: 1.8rem;
+        padding: .5rem 1rem .5rem 1rem;
+    }
 }
 
 @media screen and (max-width:575.98px){
@@ -215,5 +266,19 @@
 
     .section-06-column{
         width: 100%;
+    }
+
+    .section-07-column .social{
+        margin-top: 1.5rem;
+    }
+
+    .section-07-column{
+        padding: 2rem 2rem 2rem 2rem;
+    }
+
+    .section-07-column .social > a{
+        font-size: 1.5rem;
+        padding: .5rem 1rem .5rem 1rem;
+        margin: 0rem;
     }
 }

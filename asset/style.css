@@ -365,16 +365,53 @@ body {
     cursor: pointer;
 }
 
-.footer {
+.section-07-column .social > a .fa-facebook{
+    color: #385898;
+}
+
+.section-07-column .social > a .fa-tiktok{
+    color: #000;
+}
+
+.section-07-column .social > a .fa-phone-volume{
+    color: #97103d;
+}
+
+.section-07-column .social > a .fa-line{
+    color: #2cbf13;
+}
+
+.section-07-column .social > a .fa-facebook:hover{
+    color: #fff;
+}
+
+.section-07-column .social > a .fa-tiktok:hover{
+    color: #fff;
+}
+
+.section-07-column .social > a .fa-phone-volume:hover{
+    color: #fff;
+}
+
+.section-07-column .social > a .fa-line:hover{
+    color: #fff;
+}
+
+.section-footer .footer-text{
+    width: 100%;
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
     /* position: fixed; */
     left: 0;
     bottom: 0;
-    width: 100%;
-    padding: 1rem 0rem .4rem 0rem;
-    background-color: rgb(7, 7, 7);
-    color: white;
-    text-align: center;
+    padding: 1rem;
 }
+
+.section-footer .footer-text >p{
+    margin-bottom: 0;
+}
+
 
 @media screen and (max-width: 1400.98px){
     .section-06-des >h1{
