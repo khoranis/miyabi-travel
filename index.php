@@ -61,33 +61,36 @@
                     <div class="swiper-slide">
                         <!-- <img src="//roam.qodeinteractive.com/wp-content/uploads/2017/08/home-4-slider-image-1.jpg" alt=""> -->
                         <img src="asset/img/banner/felix-rostig-UmV2wr-Vbq8-unsplash.jpg" alt="">
-                        <div class="img-tick animate__animated animate__fadeInUp animate__delay-1s">
-                             <img src="https://roam.qodeinteractive.com/wp-content/uploads/2017/08/home-4-slider-graphic-2.png" alt="" width="500px" height="40px">
-                        </div>
+                        
                         <div class="text-wrapper">
                             <h1 class="title animate__animated animate__fadeInUp animate__delay-1s">The New Frontier</h1>
+                            <div class="img-tick animate__animated animate__fadeInUp animate__delay-1s">
+                                <img src="https://roam.qodeinteractive.com/wp-content/uploads/2017/08/home-4-slider-graphic-2.png" alt="" style="display: flex;margin-left: 30%;width: 40%;">
+                            </div>
                             <button class="btn style-01 animate__animated animate__fadeInUp animate__delay-1s">GET ROAM</button>
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <!-- <img src="//roam.qodeinteractive.com/wp-content/uploads/2017/08/home-4-slider-image-2.jpg" alt=""> -->
                         <img src="asset/img/banner/fabio-comparelli-uq2E2V4LhCY-unsplash.jpg" alt="">
-                        <div class="img-tick animate__animated animate__fadeInDown animate__delay-1s">
-                             <img src="https://roam.qodeinteractive.com/wp-content/uploads/2017/08/home-4-slider-graphic-2.png" alt="" width="500px" height="40px">
-                        </div>
+                        
                         <div class="text-wrapper">
                             <h1 class="title animate__animated animate__fadeInDown animate__delay-1s">Spirit of Exploration</h1>
+                            <div class="img-tick animate__animated animate__fadeInDown animate__delay-1s">
+                                <img src="https://roam.qodeinteractive.com/wp-content/uploads/2017/08/home-4-slider-graphic-2.png" alt="" style="display: flex;margin-left: 30%;width: 40%;">
+                            </div>
                             <button class="btn style-01 animate__animated animate__fadeInDown animate__delay-1s">GET ROAM</button>
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <!-- <img src="//roam.qodeinteractive.com/wp-content/uploads/2017/08/home-4-slider-image-3.jpg" alt=""> -->
                         <img src="asset/img/banner/redd-f-rjfOdiB7k-E-unsplash.jpg" alt="">
-                        <div class="img-tick">
-                             <img src="https://roam.qodeinteractive.com/wp-content/uploads/2017/08/home-4-slider-graphic-2.png" alt="" width="500px" height="40px">
-                        </div>
+                        
                         <div class="text-wrapper">
                             <h1 class="title">The Mountaintops</h1>
+                            <div class="img-tick">
+                                <img src="https://roam.qodeinteractive.com/wp-content/uploads/2017/08/home-4-slider-graphic-2.png" alt="" style="display: flex;margin-left: 30%;width: 40%;">
+                            </div>
                             <button class="btn style-01">GET ROAM</button>
                         </div>
                     </div>

@@ -16,12 +16,13 @@
 
 .section-01 .swiper-slide > .img-tick{
     position: absolute;
-    /* margin-top: 3rem; */
+    
 }
 
 .section-01 .swiper-slide > .text-wrapper{
     position: relative;
     /* font-family: 'Lobster', cursive; */
+    margin-top: 5rem; 
 }
 
 .section-01 .swiper-slide > .text-wrapper .title{
